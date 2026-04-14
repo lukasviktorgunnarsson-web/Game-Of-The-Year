@@ -1,4 +1,6 @@
 # Game-Of-The-Year
+Beskrivning: 
+Game Of The Year är ett quizspel där spelaren svarar på frågor och samlar poäng. Först skriver man in sitt namn och startar spelet. Under quizet får man olika frågor, som är en drag-and-drop där man ska matcha rätt text till ruta. Man får direkt veta om svaret är rätt eller fel. När spelet är slut visas poängen. Spelaren kan se sina tidigare resultat och spela igen utan att ladda om sidan.
 
 ## 🛠️ Instruktioner
 
@@ -26,5 +28,5 @@
 - visa historisk highscore. 
 - Meddelande (“Bra jobbat!”).
 ----------------------------------
-- [ ] 5 .Game over/ Win.
+- [ ] 5 .Game over/ Win. (S4)
 - Knapp: “Spela igen" utan att ladda om sidan.
