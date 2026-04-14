@@ -20,13 +20,11 @@
 - Varje rätt svar ger +1 poäng.
 - Spara spelarens score under hela spelet. 
 - Knapp: “Nästa fråga”.
-
-
+----------------------------------
 - [ ] 4. Resultat (S4)
 - Visa total poäng.
 - visa historisk highscore. 
 - Meddelande (“Bra jobbat!”).
-
-
+----------------------------------
 - [ ] 5 .Game over/ Win.
 - Knapp: “Spela igen" utan att ladda om sidan.
