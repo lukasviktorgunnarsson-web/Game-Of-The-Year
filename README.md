@@ -2,33 +2,29 @@
 
 ## 🛠️ Instruktioner
 
-- [ ] 1.  Startsidan
+- [ ] 1.  Startvy (sida 1.) 
+- Input för namn.
+- Knapp: “Fortsätt”.
+- Sparar namn och går vidare. 
 
-När användaren öppnar quizet ska en startsida visas där man skriver in sitt namn.
-Det ska finnas ett inputfält och en knapp (t.ex. “Fortsätt”).
-Användaren kan inte gå vidare utan att skriva sitt namn.
+- [ ] 2. Introduktion (S2)
+- Kort beskrivning av quizet.
+- Knapp: “Starta quiz”.
+- Startar nedräkning: 3 - 2 -  1 - Kör!
 
-- [ ] 2. (Startsida) - Navigering till introduktion
+- [ ] 3. Quiz (S3)
+- Visar frågor + svarsalternativ. 
+- Dra texter till rätt rutor. (drag and drop)
+- Kontrollera rätt/fel.
+- Direkt feedback (✔️/❌).
+- Varje rätt svar ger +1 poäng.
+- Spara spelarens score under hela spelet. 
+- Knapp: “Nästa fråga”.
 
-När användaren klickar på knappen sparas namnet och man skickas vidare till nästa sida.
+- [ ] 4. Resultat (S4)
+- Visa total poäng.
+- visa historisk highscore. 
+- Meddelande (“Bra jobbat!”).
 
-- [ ] 3. Introduktionssida 
-
-Här visas en kort text som förklarar vad quizet går ut på (t.ex. svara på frågor och få poäng...).
-Det ska finnas en tydlig knapp: “Starta quiz”.
-
-- [ ] 4. Nedräkning
-
-När användaren klickar på “Starta quiz” startar en nedräkning:
-3 → 2 → 1 → Kör!
-(visas  på skärmen)
-
-- [ ] 5. Start av quizet
-
-Efter nedräkningen börjar quizet automatiskt och första frågan visas. 
-
-- [ ] 6. 
-
-- [ ] 7.
-
-- [ ] 8.
+- [ ] 5 .Game over/ Win.
+- Knapp: “Spela igen" utan att ladda om sidan.
