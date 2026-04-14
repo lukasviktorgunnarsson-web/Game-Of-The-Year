@@ -7,10 +7,12 @@
 - Knapp: “Fortsätt”.
 - Sparar namn och går vidare. 
 
+
 - [ ] 2. Introduktion (S2)
 - Kort beskrivning av quizet.
 - Knapp: “Starta quiz”.
 - Startar nedräkning: 3 - 2 -  1 - Kör!
+
 
 - [ ] 3. Quiz (S3)
 - Visar frågor + svarsalternativ. 
@@ -21,10 +23,12 @@
 - Spara spelarens score under hela spelet. 
 - Knapp: “Nästa fråga”.
 
+
 - [ ] 4. Resultat (S4)
 - Visa total poäng.
 - visa historisk highscore. 
 - Meddelande (“Bra jobbat!”).
+
 
 - [ ] 5 .Game over/ Win.
 - Knapp: “Spela igen" utan att ladda om sidan.
