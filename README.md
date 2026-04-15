@@ -30,3 +30,11 @@ Game Of The Year är ett quizspel där spelaren svarar på frågor och samlar po
 ----------------------------------
 - [ ] 5 .Game over/ Win. (S4)
 - Knapp: “Spela igen" utan att ladda om sidan.
+
+----------------------------------
+Mappstruktur: 
+En komponentsmapp i SRC mapp, där vi lägger alla typescripts moduler. 
+Images mapp i SRC. 
+
+Kommentering: 
+Kommentera med rubriker. 
