@@ -19,6 +19,13 @@ export async function createPlayer() {
     .then((res) => res.json())
     .then((data) => {})
     .catch((err) => console.error("Error:", err));
-}
+ 
+    // skapar POST:
 
-// skapar POST:
+    const playerName: Iplayers = nameResult;
+    if(playerName === null) {
+      return "please enter a real name";
+    }else {
+      
+    }
+}
