@@ -1,4 +1,73 @@
 {
-    "players": [],
-    "scoreboard": []
+  "players": [
+    {
+      "id": 1,
+      "playersName": ""
+    }
+  ],
+  "scoreboard": [],
+
+
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vem var Sveriges kung som gjorde landet självständigt från Danmark?",
+      "correctAnswer": "Gustav Vasa",
+      "answers": ["Gustav Vasa", "Karl XII", "Gustav II Adolf", "Olof Skötkonung"]
+    },
+    {
+      "id": 2,
+      "question": "Vem var den svenska uppfinnaren som skapade dynamiten?",
+      "correctAnswer": "Alfred Nobel",
+      "answers": ["Alfred Nobel", "Anders Celsius", "Carl von Linné", "John Ericsson"]
+    },
+    {
+      "id": 3,
+      "question": "Vem var den svenska helgonförklarade kvinnan från medeltiden?",
+      "correctAnswer": "Heliga Birgitta",
+      "answers": ["Heliga Birgitta", "Drottning Kristina", "Margareta I", "Karin Månsdotter"]
+    },
+    {
+      "id": 4,
+      "question": "Vem upptäckte Amerika år 1492?",
+      "correctAnswer": "Christofer Columbus",
+      "answers": ["Christofer Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo"]
+    },
+    {
+      "id": 5,
+      "question": "Hur många år sitter en amerikansk president per mandatperiod?",
+      "correctAnswer": "4 år",
+      "answers": ["4 år", "2 år", "6 år", "8 år"]
+    },
+    {
+      "id": 6,
+      "question": "Vilken stad ligger Vita huset i?",
+      "correctAnswer": "Washington, D.C.",
+      "answers": ["Washington, D.C.", "New York", "Los Angeles", "Chicago"]
+    },
+    {
+      "id": 7,
+      "question": "Vad heter den officiella presidentflygplanet?",
+      "correctAnswer": "Air Force One",
+      "answers": ["Air Force One", "Sky One", "President Jet", "Freedom Air"]
+    },
+    {
+      "id": 8,
+      "question": "Vem är USA:s nuvarande president (2026)?",
+      "correctAnswer": "Donald Trump",
+      "answers": ["Donald Trump", "Joe Biden", "Barack Obama", "George Bush"]
+    },
+    {
+      "id": 9,
+      "question": "Vad hette raketen som åkte till månen första gången?",
+      "correctAnswer": "Saturn V",
+      "answers": ["Apollo 11", "Apollo 13", "Saturn V", "Challenger"]
+    },
+    {
+      "id": 10,
+      "question": "Hur många personer åkte med på resan till månen (Apollo 11)?",
+      "correctAnswer": "3",
+      "answers": ["3", "2", "4", "5"]
+    }
+  ]
 }
