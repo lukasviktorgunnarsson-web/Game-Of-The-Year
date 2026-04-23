@@ -1,506 +1,498 @@
-
 {
   "players": [
     {
       "playerId": 1,
-      "playerName": ""
+      "playerName": "",
+      "id": "xIUr5k3Hjq8"
     }
   ],
   "scoreboard": [
     {
-        "playerId":"",
-        "score":""
+      "playerId": "",
+      "score": "",
+      "id": "wv5qw9xTcWE"
     }
   ],
-
-"questions": 
-[
+  "questions": [
     {
-        "id": "1",
-        "title": "Vem var Sveriges kung som gjorde landet självständigt från Danmark?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Gustav Vasa",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Karl XII",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "Gustav II Adolf",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Olof Skötkonung",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Gustav Vasa",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Karl XII",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Gustav II Adolf",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Olof Skötkonung",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
-    },
-
-    {
-        "id": "2",
-        "title": "Vem var den svenska uppfinnaren som skapade dynamiten?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Anders Celsius",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Alfred Nobel",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "Carl von Linné",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "John Ericsson",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Anders Celsius",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Alfred Nobel",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Carl von Linné",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "John Ericsson",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
-    },
-
-
-    {
-        "id": "3",
-        "title": "Vem var den svenska helgonförklarade kvinnan från medeltiden?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Heliga Birgitta",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Drottning Kristina",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "Margareta I",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Karin Månsdotter",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Heliga Birgitta",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Drottning Kristina",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Margareta I",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Karin Månsdotter",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
-    },
-
-    {
-        "id": "1",
-        "title": "Vem upptäckte Amerika år 1492?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Christofer Columbus",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Vasco da Gama",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "Ferdinand Magellan",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Marco Polo",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Christofer Columbus",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Vasco da Gama",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Ferdinand Magellan",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Marco Polo",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
+      "id": "1",
+      "title": "Vem var Sveriges kung som gjorde landet självständigt från Danmark?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Gustav Vasa",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Karl XII",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Gustav II Adolf",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Olof Skötkonung",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Gustav Vasa",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Karl XII",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Gustav II Adolf",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Olof Skötkonung",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
     },
     {
-        "id": "1",
-        "title": "Hur många år sitter en amerikansk president per mandatperiod?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "4 år",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "2 år",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "6 år",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "8 år",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "4 år",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "2 år",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "6 år",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "8 år",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
-    },
-
-    {
-        "id": "4",
-        "title": "Vilken stad ligger Vita huset i?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Chicago",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "New York",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title": "Los Angeles",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Washington, D.C.",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Chicago",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "New York",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Los Angeles",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Washington, D.C.",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
+      "id": "2",
+      "title": "Vem var den svenska uppfinnaren som skapade dynamiten?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Anders Celsius",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Alfred Nobel",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Carl von Linné",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "John Ericsson",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Anders Celsius",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Alfred Nobel",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Carl von Linné",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "John Ericsson",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
     },
     {
-        "id": "3",
-        "title": "Vad heter den officiella presidentflygplanet?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Sky One",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "President Jet",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title":"Air Force One",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Freedom Air",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Sky One",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "President Jet",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Air Force One",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Freedom Air",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
-    },
-
-    {
-        "id": "1",
-        "title": "Vem är USA:s nuvarande president (2026)?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Donald Trump",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Joe Biden",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title":"Barack Obama",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "George Bush",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "Donald Trump",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Joe Biden",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Barack Obama",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "George Bush",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
+      "id": "3",
+      "title": "Vem var den svenska helgonförklarade kvinnan från medeltiden?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Heliga Birgitta",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Drottning Kristina",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Margareta I",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Karin Månsdotter",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Heliga Birgitta",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Drottning Kristina",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Margareta I",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Karin Månsdotter",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
     },
     {
-        "id": "3",
-        "title": "Vad hette raketen som åkte till månen första gången?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "Apollo 13",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "Apollo 11",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title":"Saturn V",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "Challenger",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions":[
-            {
-                "title": "Apollo 13",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "Apollo 11",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "Saturn V",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "Challenger",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
+      "id": "1",
+      "title": "Vem upptäckte Amerika år 1492?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Christofer Columbus",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Vasco da Gama",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Ferdinand Magellan",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Marco Polo",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Christofer Columbus",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Vasco da Gama",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Ferdinand Magellan",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Marco Polo",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
     },
     {
-        "id": "3",
-        "title": "Hur många personer åkte med på resan till månen (Apollo 11)?",
-        "answerBoxes": [
-            {
-                "id": "1",
-                "title": "4",
-                "imageUrl":"./image/sweden1.png"
-            },
-             {
-                "id": "2",
-                "title": "2",
-                "imageUrl":"./image/dannmark1.png"
-            },
-             {
-                "id": "3", 
-                "title":"3",
-                "imageUrl":"./image/norge1.png"
-            },
-             {
-                "id": "4",
-                "title": "5",
-                "imageUrl":"./image/1.png"
-            }
-        ],
-        "answerOptions": [
-            {
-                "title": "4",
-                "imageUrl": "null",
-                "answerbox": "1"
-            },
-              {
-                "title": "2",
-                "imageUrl": "null",
-                "answerbox": "2"
-            },
-              {
-                "title": "3",
-                "imageUrl": "null",
-                "answerbox": "3"
-            },
-              {
-                "title": "5",
-                "imageUrl": "null",
-                "answerbox": "4"
-            }
-        ]
+      "id": "1",
+      "title": "Hur många år sitter en amerikansk president per mandatperiod?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "4 år",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "2 år",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "6 år",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "8 år",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "4 år",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "2 år",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "6 år",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "8 år",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Vilken stad ligger Vita huset i?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Chicago",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "New York",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Los Angeles",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Washington, D.C.",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Chicago",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "New York",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Los Angeles",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Washington, D.C.",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Vad heter den officiella presidentflygplanet?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Sky One",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "President Jet",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Air Force One",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Freedom Air",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Sky One",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "President Jet",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Air Force One",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Freedom Air",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Vem är USA:s nuvarande president (2026)?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Donald Trump",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Joe Biden",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Barack Obama",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "George Bush",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Donald Trump",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Joe Biden",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Barack Obama",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "George Bush",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Vad hette raketen som åkte till månen första gången?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Apollo 13",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Apollo 11",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Saturn V",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Challenger",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Apollo 13",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Apollo 11",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Saturn V",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Challenger",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Hur många personer åkte med på resan till månen (Apollo 11)?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "4",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "2",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "3",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "5",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "4",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "2",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "3",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "5",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
     }
-]
-} 
-
+  ]
+}
