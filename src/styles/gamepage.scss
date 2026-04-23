@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    min-height: 80vh;
+    min-width: 60vw;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 50px;
+}
