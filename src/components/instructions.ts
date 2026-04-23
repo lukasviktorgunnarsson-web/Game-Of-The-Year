@@ -1,4 +1,5 @@
-import  clearstartPage  from "./startpage.ts";
+import renderGamePage from "./gamepage.ts";
+
 export default function renderInstructions(): void {
 const body = document.querySelector("body") as HTMLBodyElement;
 
@@ -20,6 +21,7 @@ textContainer.appendChild(nextPageBtn)
 
 nextPageBtn.addEventListener("click", (): void =>{
     document.body.innerHTML = "";
+    renderGamePage();
 })
 }
 
