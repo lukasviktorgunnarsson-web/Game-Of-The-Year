@@ -4,6 +4,14 @@
       "playerId": 1,
       "playerName": "",
       "id": "xIUr5k3Hjq8"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "AB4zQ8yLr_k"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "6XOezceZJ3g"
     }
   ],
   "scoreboard": [
@@ -494,5 +502,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
