@@ -18,17 +18,6 @@
     }
   ],
   "scoreboard": [],
-  "questions": [{
-    "title": "vad heter obama",
-    "id": 
-  }],
-  "answerOption": [],
-  "answerBox": []
-      "playerId": 1,
-      "playerName": "",
-      "id": "xIUr5k3Hjq8"
-    }
-  ],
   "questions": [
     {
       "id": "1",
@@ -511,5 +500,5 @@
       ]
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "answerOption": []
 }
