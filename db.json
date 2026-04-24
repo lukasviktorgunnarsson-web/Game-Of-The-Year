@@ -15,6 +15,42 @@
     {
       "playerName": "Albin",
       "id": "qdA9tz5-MRA"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "f4A-fviNsuk"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "zlZEOcdu5DQ"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "l8udxIIndKg"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "JNiwGG9NsK8"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "F3qk0duRAys"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "_4uhIHiqwzw"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "Y9_Ixjar93s"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "3P7BPHy6E2I"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "nttlbYKrIFc"
     }
   ],
   "scoreboard": [],
@@ -500,5 +536,6 @@
       ]
     }
   ],
-  "answerOption": []
+  "answerOption": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }

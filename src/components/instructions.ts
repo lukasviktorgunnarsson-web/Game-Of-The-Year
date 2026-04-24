@@ -27,6 +27,7 @@ export default function renderInstructions(): void {
         document.body.innerHTML = "";
         const newDisplay = document.createElement("div");
         newDisplay.id = "display";
+        newDisplay.classList.add("display");
         document.body.appendChild(newDisplay);
         startTimer(newDisplay);
         renderGamePage();
