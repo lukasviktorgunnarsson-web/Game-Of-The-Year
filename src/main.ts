@@ -4,4 +4,9 @@ import createPlayer from "./components/post-players"
 
 
 
+import gamepage from "./components/gamepage.ts";
+
+
+
+
 createPlayer();
