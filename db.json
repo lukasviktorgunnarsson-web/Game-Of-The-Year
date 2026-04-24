@@ -15,6 +15,142 @@
     {
       "playerName": "Albin",
       "id": "qdA9tz5-MRA"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "_2e-nH1FDsg"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "TdtZ4m9njbI"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "cQq8bRBAWGg"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "qa-aqALCL9o"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "s5Radeh0w5o"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "uDFRXtH7P-s"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "9WCoCk9wQuU"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "E9al4PdF_FM"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "3ZlPVhEAgac"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "kcnBnd4zQhs"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "oRJ6NrHuyrM"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "vZyQfqFw4RU"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "aWwuzxlyJy0"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "jtQblRCt0Ws"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "eF5QAyTGOno"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "4eS8nBraYGw"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "IGW1Lm4JNN4"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "jV7rcu28OiE"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "RNB9RhkmOXI"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "TEHOXvr5V5M"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "I_D_OV8Ztg8"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "aipmDlxoGM4"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "ek_oqbghPa8"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "ug8CVdZaNK0"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "5DGr-PvtLKQ"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "bW2D5QcDrg0"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "RFQFL35Nyjk"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "u25AeWg4rGc"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "LzVRBWxQsEU"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "959VF8E7qnE"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "AFep-tB0XQs"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "vuE2zV_Yjig"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "rufearKU5DY"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "1g7iTrXeRCg"
     }
   ],
   "scoreboard": [],
@@ -500,5 +636,6 @@
       ]
     }
   ],
-  "answerOption": []
+  "answerOption": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
