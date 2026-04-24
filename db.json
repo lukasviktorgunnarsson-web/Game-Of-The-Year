@@ -1,6 +1,29 @@
 {
   "players": [
     {
+      "playerName": "Lukas",
+      "id": "9aeSBuAX5Yc"
+    },
+    {
+      "playerName": "Leo",
+      "id": "wd5HmTEZtTk"
+    },
+    {
+      "playerName": "Diana",
+      "id": "MwzNxCeYtl8"
+    },
+    {
+      "playerName": "Albin",
+      "id": "qdA9tz5-MRA"
+    }
+  ],
+  "scoreboard": [],
+  "questions": [{
+    "title": "vad heter obama",
+    "id": 
+  }],
+  "answerOption": [],
+  "answerBox": []
       "playerId": 1,
       "playerName": "",
       "id": "xIUr5k3Hjq8"
