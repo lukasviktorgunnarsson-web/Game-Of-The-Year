@@ -13,6 +13,51 @@
       "id": "MwzNxCeYtl8"
     },
     {
+      "playerName": "f",
+      "id": "yS_v-JzdwC4"
+    },
+    {
+      "playerName": "d",
+      "id": "n-Tv7-GSE_0"
+    },
+    {
+      "playerName": "d",
+      "id": "7pCOCqhr1Lk"
+    },
+    {
+      "playerName": "d",
+      "id": "MCNgCMWPQAM"
+    },
+    {
+      "playerName": "d",
+      "id": "duoI_6FarAA"
+    },
+    {
+      "playerName": "s",
+      "id": "fZlKtFRRank"
+    },
+    {
+      "playerName": "s",
+      "id": "dYhGjH3lVEM"
+    },
+    {
+      "playerName": "d",
+      "id": "4LlD946wAGA"
+    },
+    {
+      "playerName": "d",
+      "id": "Lg1Fcbk-ysU"
+    },
+    {
+      "playerName": "S",
+      "id": "W_SKCMqfWJE"
+    }
+  ],
+  "scoreboard": [
+    {
+      "playerId": "",
+      "score": "",
+      "id": "wv5qw9xTcWE"
       "playerName": "Albin",
       "id": "qdA9tz5-MRA"
     }
@@ -21,50 +66,50 @@
   "questions": [
     {
       "id": "1",
-      "title": "Vem var Sveriges kung som gjorde landet självständigt från Danmark?",
+      "title": "Vilken sport är personen känd för?",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Gustav Vasa",
+          "title": "Zlatan Ibrahimovic",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "Karl XII",
+          "title": "Usein Bolt",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Gustav II Adolf",
+          "title": "Tiger Woods",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "Olof Skötkonung",
+          "title": "Lebron James",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Gustav Vasa",
+          "title": "Fotboll",
           "imageUrl": "null",
           "answerbox": "1",
           "id": "1"
         },
         {
-          "title": "Karl XII",
+          "title": "Fri idrott",
           "imageUrl": "null",
           "answerbox": "2",
           "id": "2"
         },
         {
-          "title": "Gustav II Adolf",
+          "title": "Golf",
           "imageUrl": "null",
           "answerbox": "3",
           "id": "3"
         },
         {
-          "title": "Olof Skötkonung",
+          "title": "Basket",
           "imageUrl": "null",
           "answerbox": "4",
           "id": "4"
@@ -73,47 +118,47 @@
     },
     {
       "id": "2",
-      "title": "Vem var den svenska uppfinnaren som skapade dynamiten?",
+      "title": "Vem uppfann vad?",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Anders Celsius",
+          "title": "Dynamit",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "Alfred Nobel",
+          "title": "Glödlampan",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Carl von Linné",
+          "title": "Telefonen",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "John Ericsson",
+          "title": "Coca Cola",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Anders Celsius",
+          "title": "Alfred Nobel",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "Alfred Nobel",
+          "title": "Thomas Edison",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Carl von Linné",
+          "title": "Alexander Graham Bell",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "John Ericsson",
+          "title": "John Pemberton",
           "imageUrl": "null",
           "answerbox": "4"
         }
@@ -121,143 +166,47 @@
     },
     {
       "id": "3",
-      "title": "Vem var den svenska helgonförklarade kvinnan från medeltiden?",
+      "title": "Para rätt uppfinning med land",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Heliga Birgitta",
+          "title": "Ikea",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "Drottning Kristina",
+          "title": "Lego",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Margareta I",
+          "title": "Nokia",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "Karin Månsdotter",
+          "title": "Samsung",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Heliga Birgitta",
+          "title": "Sverige",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "Drottning Kristina",
+          "title": "Danmark",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Margareta I",
+          "title": "Finland",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "Karin Månsdotter",
-          "imageUrl": "null",
-          "answerbox": "4"
-        }
-      ]
-    },
-    {
-      "id": "1",
-      "title": "Vem upptäckte Amerika år 1492?",
-      "answerBoxes": [
-        {
-          "id": "1",
-          "title": "Christofer Columbus",
-          "imageUrl": "./image/sweden1.png"
-        },
-        {
-          "id": "2",
-          "title": "Vasco da Gama",
-          "imageUrl": "./image/dannmark1.png"
-        },
-        {
-          "id": "3",
-          "title": "Ferdinand Magellan",
-          "imageUrl": "./image/norge1.png"
-        },
-        {
-          "id": "4",
-          "title": "Marco Polo",
-          "imageUrl": "./image/1.png"
-        }
-      ],
-      "answerOptions": [
-        {
-          "title": "Christofer Columbus",
-          "imageUrl": "null",
-          "answerbox": "1"
-        },
-        {
-          "title": "Vasco da Gama",
-          "imageUrl": "null",
-          "answerbox": "2"
-        },
-        {
-          "title": "Ferdinand Magellan",
-          "imageUrl": "null",
-          "answerbox": "3"
-        },
-        {
-          "title": "Marco Polo",
-          "imageUrl": "null",
-          "answerbox": "4"
-        }
-      ]
-    },
-    {
-      "id": "1",
-      "title": "Hur många år sitter en amerikansk president per mandatperiod?",
-      "answerBoxes": [
-        {
-          "id": "1",
-          "title": "4 år",
-          "imageUrl": "./image/sweden1.png"
-        },
-        {
-          "id": "2",
-          "title": "2 år",
-          "imageUrl": "./image/dannmark1.png"
-        },
-        {
-          "id": "3",
-          "title": "6 år",
-          "imageUrl": "./image/norge1.png"
-        },
-        {
-          "id": "4",
-          "title": "8 år",
-          "imageUrl": "./image/1.png"
-        }
-      ],
-      "answerOptions": [
-        {
-          "title": "4 år",
-          "imageUrl": "null",
-          "answerbox": "1"
-        },
-        {
-          "title": "2 år",
-          "imageUrl": "null",
-          "answerbox": "2"
-        },
-        {
-          "title": "6 år",
-          "imageUrl": "null",
-          "answerbox": "3"
-        },
-        {
-          "title": "8 år",
+          "title": "Sydkorea",
           "imageUrl": "null",
           "answerbox": "4"
         }
@@ -265,239 +214,335 @@
     },
     {
       "id": "4",
-      "title": "Vilken stad ligger Vita huset i?",
+      "title": "Para land med geografisk fakta",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Chicago",
+          "title": "Chile",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "New York",
+          "title": "Schweiz",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Los Angeles",
+          "title": "Australien",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "Washington, D.C.",
+          "title": "Egypten",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Chicago",
+          "title": "Är ett långt och smalt land",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "New York",
+          "title": "Har ingen kust",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Los Angeles",
+          "title": "Är både land och kontinent",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "Washington, D.C.",
+          "title": "Genomkorsas av Nilen",
           "imageUrl": "null",
           "answerbox": "4"
         }
       ]
     },
     {
-      "id": "3",
-      "title": "Vad heter den officiella presidentflygplanet?",
+      "id": "5",
+      "title": "Para begrepp med rätt förklaring",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Sky One",
+          "title": "Fotosyntes",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "President Jet",
+          "title": "Gravition",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Air Force One",
+          "title": "Evolution",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "Freedom Air",
+          "title": "Atomer",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Sky One",
+          "title": "Växter omvandlar ljus till energi",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "President Jet",
+          "title": "Dragningskraft mellan objekt",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Air Force One",
+          "title": "Arter förändras över tid",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "Freedom Air",
+          "title": "Bygger upp material",
           "imageUrl": "null",
           "answerbox": "4"
         }
       ]
     },
     {
-      "id": "1",
-      "title": "Vem är USA:s nuvarande president (2026)?",
+      "id": "6",
+      "title": "Para teknik med användning",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Donald Trump",
+          "title": "AI",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "Joe Biden",
+          "title": "Blockchain",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Barack Obama",
+          "title": "Molnlagring",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "George Bush",
+          "title": "Operativsystem",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Donald Trump",
+          "title": "Efterliknar mänskligt tänkande",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "Joe Biden",
+          "title": "Säker digital registrering",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Barack Obama",
+          "title": "Sparar data online",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "George Bush",
+          "title": "Styr datorns funktioner",
           "imageUrl": "null",
           "answerbox": "4"
         }
       ]
     },
     {
-      "id": "3",
-      "title": "Vad hette raketen som åkte till månen första gången?",
+      "id": "7",
+      "title": "Para begrepp med funktion",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "Apollo 13",
+          "title": "IP-adress",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "Apollo 11",
+          "title": "DNS",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "Saturn V",
+          "title": "Router",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "Challenger",
+          "title": "Brandvägg",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "Apollo 13",
+          "title": "Identifierar en enhet på nätverk",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "Apollo 11",
+          "title": "Översätter domännamn till IP",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "Saturn V",
+          "title": "Skickar trafik mellan nätverk",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "Challenger",
+          "title": "Skyddar mot obehörig trafik",
           "imageUrl": "null",
           "answerbox": "4"
         }
       ]
     },
     {
-      "id": "3",
-      "title": "Hur många personer åkte med på resan till månen (Apollo 11)?",
+      "id": "8",
+      "title": "Vem ligger bakom uppfinningen?",
       "answerBoxes": [
         {
           "id": "1",
-          "title": "4",
+          "title": "Första datorn",
           "imageUrl": "./image/sweden1.png"
         },
         {
           "id": "2",
-          "title": "2",
+          "title": "Iphone",
           "imageUrl": "./image/dannmark1.png"
         },
         {
           "id": "3",
-          "title": "3",
+          "title": "World Wide Web",
           "imageUrl": "./image/norge1.png"
         },
         {
           "id": "4",
-          "title": "5",
+          "title": "Microsoft",
           "imageUrl": "./image/1.png"
         }
       ],
       "answerOptions": [
         {
-          "title": "4",
+          "title": "Charles Babbage",
           "imageUrl": "null",
           "answerbox": "1"
         },
         {
-          "title": "2",
+          "title": "Steve Jobs",
           "imageUrl": "null",
           "answerbox": "2"
         },
         {
-          "title": "3",
+          "title": "Tim Berers-Lee",
           "imageUrl": "null",
           "answerbox": "3"
         },
         {
-          "title": "5",
+          "title": "Bill Gates",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Vem står bakom detta?",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Pacemaker",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Celsius skalan",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "Säker tändsticka",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Spotify",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "Rune elmqvist",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Anders Celsius",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Gustaf Erik Pasch",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "Daniel Ek",
+          "imageUrl": "null",
+          "answerbox": "4"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Para produkt med skapare",
+      "answerBoxes": [
+        {
+          "id": "1",
+          "title": "Candy Crush Saga",
+          "imageUrl": "./image/sweden1.png"
+        },
+        {
+          "id": "2",
+          "title": "Skype",
+          "imageUrl": "./image/dannmark1.png"
+        },
+        {
+          "id": "3",
+          "title": "H&M",
+          "imageUrl": "./image/norge1.png"
+        },
+        {
+          "id": "4",
+          "title": "Battlefield",
+          "imageUrl": "./image/1.png"
+        }
+      ],
+      "answerOptions": [
+        {
+          "title": "King",
+          "imageUrl": "null",
+          "answerbox": "1"
+        },
+        {
+          "title": "Niklas Zennström",
+          "imageUrl": "null",
+          "answerbox": "2"
+        },
+        {
+          "title": "Erling Persson",
+          "imageUrl": "null",
+          "answerbox": "3"
+        },
+        {
+          "title": "DICE",
           "imageUrl": "null",
           "answerbox": "4"
         }
