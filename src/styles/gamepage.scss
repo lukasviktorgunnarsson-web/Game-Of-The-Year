@@ -32,3 +32,15 @@ $secondary-color: #d60b0b;
     // margin-bottom: 10px;
     margin-top: 20px;
 }
+
+
+.dropZone {
+    width: 200px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

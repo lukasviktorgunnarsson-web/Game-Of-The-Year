@@ -1,6 +1,6 @@
 import "../styles/gamepage.scss";
-
 import fetchQuestions from "./fetchQuestions";
+import moveQuestions from "./moveQuestions";
 // renderar ut alla element
 
 let i = 0;
@@ -48,8 +48,10 @@ export default async function renderGamePage(): Promise<void> {
     answerBox.classList.add("answerBox");
     answerBox.textContent = answer.title;
     answerBox.draggable = true;
+    answerBox.id = `card-${answer.id}`;
 
     answersContainer.appendChild(answerBox);
+    moveQuestions();
   });
 
   const btn = document.createElement("button");
