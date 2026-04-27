@@ -1,50 +1,59 @@
 {
   "players": [
     {
-      "playerId": 1,
-      "playerName": "",
-      "id": "xIUr5k3Hjq8"
+      "playerName": "Lukas",
+      "id": "9aeSBuAX5Yc"
     },
     {
-      "playerName": "j",
-      "id": "uOAY0lhv7FM"
+      "playerName": "Leo",
+      "id": "wd5HmTEZtTk"
     },
     {
-      "playerName": "j",
-      "id": "K3Blg6MbOEw"
+      "playerName": "Diana",
+      "id": "MwzNxCeYtl8"
     },
     {
-      "playerName": "f",
-      "id": "yS_v-JzdwC4"
+      "playerName": "Albin",
+      "id": "qdA9tz5-MRA"
     },
     {
-      "playerName": "d",
-      "id": "n-Tv7-GSE_0"
+      "playerName": "Lukas",
+      "id": "f4A-fviNsuk"
     },
     {
-      "playerName": "d",
-      "id": "7pCOCqhr1Lk"
+      "playerName": "Lukas",
+      "id": "zlZEOcdu5DQ"
     },
     {
-      "playerName": "d",
-      "id": "MCNgCMWPQAM"
+      "playerName": "Lukas",
+      "id": "l8udxIIndKg"
     },
     {
-      "playerName": "d",
-      "id": "duoI_6FarAA"
+      "playerName": "Lukas",
+      "id": "JNiwGG9NsK8"
     },
     {
-      "playerName": "s",
-      "id": "fZlKtFRRank"
+      "playerName": "Lukas",
+      "id": "F3qk0duRAys"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "_4uhIHiqwzw"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "Y9_Ixjar93s"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "3P7BPHy6E2I"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "nttlbYKrIFc"
     }
   ],
-  "scoreboard": [
-    {
-      "playerId": "",
-      "score": "",
-      "id": "wv5qw9xTcWE"
-    }
-  ],
+  "scoreboard": [],
   "questions": [
     {
       "id": "1",
@@ -527,5 +536,6 @@
       ]
     }
   ],
+  "answerOption": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

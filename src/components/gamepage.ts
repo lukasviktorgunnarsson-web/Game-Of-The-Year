@@ -7,6 +7,8 @@ let i = 0;
 
 export default async function renderGamePage(): Promise<void> {
   const body = document.querySelector("body");
+  body?.classList.remove("startPageBody");
+  body?.classList.add("gamePageBody");
 
   const mainContainer = document.createElement("div");
   mainContainer.classList.add("mainContainer");
