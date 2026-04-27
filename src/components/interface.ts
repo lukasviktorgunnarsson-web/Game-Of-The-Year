@@ -28,4 +28,5 @@ export interface IAnsweroption {
   title: string; 
   imageUrl: string; 
   answerbox: string;
+  id?: string | number;
 }

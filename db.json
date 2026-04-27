@@ -48,22 +48,26 @@
         {
           "title": "Gustav Vasa",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1"
         },
         {
           "title": "Karl XII",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2"
         },
         {
           "title": "Gustav II Adolf",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3"
         },
         {
           "title": "Olof Skötkonung",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4"
         }
       ]
     },
