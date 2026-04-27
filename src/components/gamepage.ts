@@ -48,7 +48,7 @@ export default async function renderGamePage(): Promise<void> {
     answerBox.classList.add("answerBox");
     answerBox.textContent = answer.title;
     answerBox.draggable = true;
-    answerBox.id = `card-${answer.id}`;
+    answerBox.id = `q${question.id}-card-${answer.index}`; 
 
     answersContainer.appendChild(answerBox);
     moveQuestions();
@@ -63,6 +63,7 @@ export default async function renderGamePage(): Promise<void> {
     i++;
     mainContainer.remove();
     renderGamePage();
+    moveQuestions();
   });
 }
 

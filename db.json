@@ -11,46 +11,6 @@
     {
       "playerName": "Diana",
       "id": "MwzNxCeYtl8"
-    },
-    {
-      "playerName": "f",
-      "id": "yS_v-JzdwC4"
-    },
-    {
-      "playerName": "d",
-      "id": "n-Tv7-GSE_0"
-    },
-    {
-      "playerName": "d",
-      "id": "7pCOCqhr1Lk"
-    },
-    {
-      "playerName": "d",
-      "id": "MCNgCMWPQAM"
-    },
-    {
-      "playerName": "d",
-      "id": "duoI_6FarAA"
-    },
-    {
-      "playerName": "s",
-      "id": "fZlKtFRRank"
-    },
-    {
-      "playerName": "s",
-      "id": "dYhGjH3lVEM"
-    },
-    {
-      "playerName": "d",
-      "id": "4LlD946wAGA"
-    },
-    {
-      "playerName": "d",
-      "id": "Lg1Fcbk-ysU"
-    },
-    {
-      "playerName": "S",
-      "id": "W_SKCMqfWJE"
     }
   ],
   "scoreboard": [
@@ -58,11 +18,8 @@
       "playerId": "",
       "score": "",
       "id": "wv5qw9xTcWE"
-      "playerName": "Albin",
-      "id": "qdA9tz5-MRA"
     }
   ],
-  "scoreboard": [],
   "questions": [
     {
       "id": "1",
@@ -94,25 +51,29 @@
           "title": "Fotboll",
           "imageUrl": "null",
           "answerbox": "1",
-          "id": "1"
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Fri idrott",
           "imageUrl": "null",
           "answerbox": "2",
-          "id": "2"
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Golf",
           "imageUrl": "null",
           "answerbox": "3",
-          "id": "3"
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Basket",
           "imageUrl": "null",
           "answerbox": "4",
-          "id": "4"
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -145,22 +106,30 @@
         {
           "title": "Alfred Nobel",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Thomas Edison",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Alexander Graham Bell",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "John Pemberton",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -193,22 +162,30 @@
         {
           "title": "Sverige",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Danmark",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Finland",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Sydkorea",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -241,22 +218,30 @@
         {
           "title": "Är ett långt och smalt land",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Har ingen kust",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Är både land och kontinent",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Genomkorsas av Nilen",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -289,22 +274,30 @@
         {
           "title": "Växter omvandlar ljus till energi",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Dragningskraft mellan objekt",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Arter förändras över tid",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Bygger upp material",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -337,22 +330,30 @@
         {
           "title": "Efterliknar mänskligt tänkande",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Säker digital registrering",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Sparar data online",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Styr datorns funktioner",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -385,22 +386,30 @@
         {
           "title": "Identifierar en enhet på nätverk",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Översätter domännamn till IP",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Skickar trafik mellan nätverk",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Skyddar mot obehörig trafik",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -433,22 +442,30 @@
         {
           "title": "Charles Babbage",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Steve Jobs",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Tim Berers-Lee",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Bill Gates",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -481,22 +498,30 @@
         {
           "title": "Rune elmqvist",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Anders Celsius",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Gustaf Erik Pasch",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "Daniel Ek",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     },
@@ -529,22 +554,30 @@
         {
           "title": "King",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1",
+          "index": 0
         },
         {
           "title": "Niklas Zennström",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2",
+          "index": 1
         },
         {
           "title": "Erling Persson",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3",
+          "index": 2
         },
         {
           "title": "DICE",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4",
+          "index": 3
         }
       ]
     }
