@@ -4,6 +4,38 @@
       "playerId": 1,
       "playerName": "",
       "id": "xIUr5k3Hjq8"
+    },
+    {
+      "playerName": "j",
+      "id": "uOAY0lhv7FM"
+    },
+    {
+      "playerName": "j",
+      "id": "K3Blg6MbOEw"
+    },
+    {
+      "playerName": "f",
+      "id": "yS_v-JzdwC4"
+    },
+    {
+      "playerName": "d",
+      "id": "n-Tv7-GSE_0"
+    },
+    {
+      "playerName": "d",
+      "id": "7pCOCqhr1Lk"
+    },
+    {
+      "playerName": "d",
+      "id": "MCNgCMWPQAM"
+    },
+    {
+      "playerName": "d",
+      "id": "duoI_6FarAA"
+    },
+    {
+      "playerName": "s",
+      "id": "fZlKtFRRank"
     }
   ],
   "scoreboard": [
@@ -494,5 +526,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
