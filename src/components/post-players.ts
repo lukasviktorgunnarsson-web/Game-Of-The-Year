@@ -1,4 +1,4 @@
-import type { Iplayers } from "./interface.ts";
+import type { IPlayer } from "./interface.ts";
 
 
 export default async function createPlayer() {
@@ -13,7 +13,7 @@ export default async function createPlayer() {
         return;
     }
 
-    const newPlayer: Iplayers = {
+    const newPlayer: IPlayer = {
       playerName: startInput.value,
     };
 
