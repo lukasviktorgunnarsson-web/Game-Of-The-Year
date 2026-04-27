@@ -1,3 +1,6 @@
+export interface Iplayers {
+    playerName: string,
+}
 export interface IPlayer {
 playerId: string;
 playerName: string;
@@ -25,4 +28,5 @@ export interface IAnsweroption {
   title: string; 
   imageUrl: string; 
   answerbox: string;
+  id?: string | number;
 }

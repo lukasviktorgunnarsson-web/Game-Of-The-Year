@@ -1,17 +1,16 @@
 {
   "players": [
     {
-      "playerId": 1,
-      "playerName": "",
-      "id": "xIUr5k3Hjq8"
+      "playerName": "Lukas",
+      "id": "9aeSBuAX5Yc"
     },
     {
-      "playerName": "j",
-      "id": "uOAY0lhv7FM"
+      "playerName": "Leo",
+      "id": "wd5HmTEZtTk"
     },
     {
-      "playerName": "j",
-      "id": "K3Blg6MbOEw"
+      "playerName": "Diana",
+      "id": "MwzNxCeYtl8"
     },
     {
       "playerName": "f",
@@ -59,8 +58,11 @@
       "playerId": "",
       "score": "",
       "id": "wv5qw9xTcWE"
+      "playerName": "Albin",
+      "id": "qdA9tz5-MRA"
     }
   ],
+  "scoreboard": [],
   "questions": [
     {
       "id": "1",
@@ -91,22 +93,26 @@
         {
           "title": "Fotboll",
           "imageUrl": "null",
-          "answerbox": "1"
+          "answerbox": "1",
+          "id": "1"
         },
         {
           "title": "Fri idrott",
           "imageUrl": "null",
-          "answerbox": "2"
+          "answerbox": "2",
+          "id": "2"
         },
         {
           "title": "Golf",
           "imageUrl": "null",
-          "answerbox": "3"
+          "answerbox": "3",
+          "id": "3"
         },
         {
           "title": "Basket",
           "imageUrl": "null",
-          "answerbox": "4"
+          "answerbox": "4",
+          "id": "4"
         }
       ]
     },
@@ -543,5 +549,5 @@
       ]
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "answerOption": []
 }
