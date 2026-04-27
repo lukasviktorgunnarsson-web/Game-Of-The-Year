@@ -19,48 +19,50 @@ export default async function renderGamePage(): Promise<void> {
   const questions = await fetchQuestions();
   const question = questions[i];
 
+  //hämtar alla frågor
+  const renderdQuestion = document.createElement("h3");
+  renderdQuestion.textContent = question.title;
+  mainContainer.appendChild(renderdQuestion);
 
-//hämtar alla frågor
-const renderdQuestion = document.createElement("h3");
-renderdQuestion.textContent = question.title;
-mainContainer.appendChild(renderdQuestion);
+  const dataContainer = document.createElement("div");
+  dataContainer.classList.add("dataContainer");
+  mainContainer.appendChild(dataContainer);
+  dataContainer.classList.add("dataContainer");
 
-const optionsContainer = document.createElement("div");
-optionsContainer.classList.add("optionsContainer");
-mainContainer.appendChild(optionsContainer);
+  const optionsContainer = document.createElement("div");
+  optionsContainer.classList.add("optionsContainer");
+  dataContainer.appendChild(optionsContainer);
+  optionsContainer.classList.add("optionsContainer");
 
-question.answerBoxes.forEach((answer) => {
-const optionBox = document.createElement("div");
-  optionBox.classList.add("optionBox");
-optionBox.textContent = answer.title;
+  question.answerBoxes.forEach((answer) => {
+    const optionBox = document.createElement("div");
+    optionBox.classList.add("optionBox");
+    optionBox.textContent = answer.title;
 
-  optionsContainer.appendChild(optionBox);
-});
+    optionsContainer.appendChild(optionBox);
+  });
 
-const answersContainer = document.createElement("div");
-answersContainer.classList.add("answersContainer");
-mainContainer.appendChild(answersContainer);
+  const answersContainer = document.createElement("div");
+  answersContainer.classList.add("answersContainer");
+  dataContainer.appendChild(answersContainer);
+  answersContainer.classList.add("answersContainer");
 
-question.answerOptions.forEach((answer)  => {
-  const answerBox = document.createElement("div");
-answerBox.classList.add("answerBox");
-  answerBox.textContent = answer.title;
+  question.answerOptions.forEach((answer) => {
+    const answerBox = document.createElement("div");
+    answerBox.classList.add("answerBox");
+    answerBox.textContent = answer.title;
 
-answersContainer.appendChild(answerBox);
-});
+    answersContainer.appendChild(answerBox);
+  });
 
-const btn = document.createElement("button");
-btn.textContent = "Nästa fråga";
-mainContainer.appendChild(btn);
+  const btn = document.createElement("button");
+  btn.textContent = "Nästa fråga";
+  mainContainer.appendChild(btn);
+  btn.classList.add("nextBtn");
 
-btn.addEventListener("click", () => {
-
-i++;
-mainContainer.remove();
-  renderGamePage();
-});
+  btn.addEventListener("click", () => {
+    i++;
+    mainContainer.remove();
+    renderGamePage();
+  });
 }
-
-
-
-
