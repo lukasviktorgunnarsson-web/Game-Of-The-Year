@@ -72,6 +72,25 @@ $secondary-color: #d60b0b;
   margin: 20px;
   border: 1px solid whitesmoke;
   border-radius: 10px;
+
+  .answerBox {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition:
+      text-shadow 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      text-shadow:
+        0 0 16px rgba(255, 255, 255, 1),
+        0 0 30px rgba(255, 255, 255, 0.6);
+      transform: scale(1.05);
+    }
+  }
 }
 .optionsContainer {
   display: flex;
@@ -82,4 +101,24 @@ $secondary-color: #d60b0b;
   margin: 20px;
   border: 1px solid whitesmoke;
   border-radius: 10px;
+
+  .optionBox {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition:
+      text-shadow 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      text-shadow:
+        0 0 16px rgba(255, 255, 255, 1),
+        0 0 30px rgba(255, 255, 255, 0.6);
+      transform: scale(1.05);
+    }
+  }
 }
