@@ -1,0 +1,50 @@
+$bg-color: #3172d4;
+$primary-color: #007bff;
+$secondary-color: #d60b0b;
+$text-color: #ffffff;
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-color;
+  padding: 20px;
+  text-align: center;
+
+  .instructions-title {
+    color: $text-color;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+  }
+
+  .instructions-list {
+    color: $text-color;
+    text-align: left;
+    margin-bottom: 25px;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+    padding-left: 0;
+    list-style-type: none;
+
+    li {
+      line-height: 1.6;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+  }
+
+  .start-button {
+    padding: 10px 40px;
+    background-color: $secondary-color;
+    color: $text-color;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: #089727;
+    }
+  }
+}
