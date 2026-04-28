@@ -1,56 +1,82 @@
 {
   "players": [
     {
-      "playerName": "LEo nytt highscore",
-      "id": "QE13VBQ4i18"
+      "id": "wW772QEd24U",
+      "name": "Diana fast det är lukas",
+      "time": "3.04"
     },
     {
-      "playerName": "LEO NYTT HIGHSCORE IGEN",
-      "id": "AYnnsPCpo9A"
+      "id": "FKdfR9gIZ2o",
+      "name": "va fan är det för skit",
+      "time": "2.70"
     },
     {
-      "playerName": "Sista bästa score (LEO)",
-      "id": "HhU6MVcI2JU"
+      "id": "aOXAcros7-E",
+      "name": "jävla piss skit",
+      "time": "2.55",
+      "playerName": "jävla piss skit 2"
     },
     {
-      "playerName": "Lukas",
-      "id": "12P_jfxcO5Y"
+      "id": "Jzx_Uf674sE",
+      "name": "jag testar en gång till x2",
+      "time": "1.99"
     },
     {
-      "playerName": "Lukas bästa highscore",
-      "id": "VvalOM0YiqI"
+      "id": "52dQ7VeyNdk",
+      "name": "Berit 2",
+      "time": "2.46"
+    },
+    {
+      "id": "Ffv7j6bQenk",
+      "name": "Lukas",
+      "time": "2.18"
+    },
+    {
+      "id": "-DtGvA9-vW8",
+      "name": "Snabbast hittils 2",
+      "time": "2.54"
+    },
+    {
+      "id": "qush4CDwsl0",
+      "name": "Skitsnabb",
+      "time": "2.15"
+    },
+    {
+      "id": "2LO0iWQPaFU",
+      "name": "Lukas slår leo enkelt 3",
+      "time": "2.46"
+    },
+    {
+      "id": "NQfrRninL9Y",
+      "name": "Lukas slår leo enkelt 3",
+      "time": "2.04"
+    },
+    {
+      "id": "UUed3_aQJII",
+      "name": "Diana fast det är lukas",
+      "time": "2.21"
+    },
+    {
+      "id": "NCFyoQmImm0",
+      "name": "Lukas",
+      "time": "1.60"
+    },
+    {
+      "id": "1oNvKSEsTNA",
+      "name": "Diana fast det är lukas",
+      "time": "2.58"
+    },
+    {
+      "id": "T71kwU0O2O8",
+      "name": "Lukas",
+      "time": "1.91"
     }
   ],
   "scoreboard": [
     {
-      "playerId": "",
-      "score": "",
-      "id": "wv5qw9xTcWE"
-    },
-    {
       "name": "LEo nytt highscore",
       "time": "60.61",
       "id": "CeVkEZty0Gw"
-    },
-    {
-      "name": "LEO NYTT HIGHSCORE IGEN",
-      "time": "42.22",
-      "id": "tZnc3u3H6ic"
-    },
-    {
-      "name": "Sista bästa score (LEO)",
-      "time": "39.84",
-      "id": "QdkPFenaiG0"
-    },
-    {
-      "name": "Lukas",
-      "time": "28.96",
-      "id": "z1NrIemdVSg"
-    },
-    {
-      "name": "Lukas bästa highscore",
-      "time": "23.96",
-      "id": "4UKaaMdR1j8"
     }
   ],
   "questions": [

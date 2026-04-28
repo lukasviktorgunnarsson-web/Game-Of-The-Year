@@ -102,7 +102,8 @@ export default async function renderGamePage(): Promise<void> {
   const btn = document.createElement("button");
   btn.textContent = "Nästa fråga";
   btn.classList.add("nextBtn");
-  btn.style.display = "none";
+  // btn.style.display = "none";
+  btn.style.display = "block"; // Gör knappen synlig direkt för enklare testning, kan ändras tillbaka till
   mainContainer.appendChild(btn);
 
   btn.addEventListener("click", () => {
