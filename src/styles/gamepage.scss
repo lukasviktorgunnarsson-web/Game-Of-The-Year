@@ -64,62 +64,67 @@ $secondary-color: #d60b0b;
   gap: 100px;
 }
 
+// Draggable option chip — styles follow the element wherever it's dropped
+.answerBox {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  cursor: grab;
+  transition:
+    text-shadow 0.2s ease,
+    transform 0.2s ease;
+  background: white;
+
+  &:hover {
+    text-shadow:
+      0 0 16px rgba(255, 255, 255, 1),
+      0 0 30px rgba(255, 255, 255, 0.6);
+    transform: scale(1.05);
+  }
+}
+
 .answersContainer {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-
+  gap: 20px;
   padding: 50px;
   margin: 20px;
   border: 1px solid whitesmoke;
   border-radius: 10px;
-
-  .answerBox {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    border: 1px solid;
-    border-radius: 10px;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
-    cursor: pointer;
-    transition:
-      text-shadow 0.2s ease,
-      transform 0.2s ease;
-
-    &:hover {
-      text-shadow:
-        0 0 16px rgba(255, 255, 255, 1),
-        0 0 30px rgba(255, 255, 255, 0.6);
-      transform: scale(1.05);
-    }
-  }
+  min-height: 100px;
 }
+
 .optionsContainer {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-
+  gap: 20px;
   padding: 50px;
   margin: 20px;
   border: 1px solid whitesmoke;
   border-radius: 10px;
 
   .optionBox {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
     padding: 10px;
-    border: 1px solid;
+    min-height: 60px;
+    border: 2px dashed rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-
-    color: rgb(0, 0, 0);
+    color: white;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
-    cursor: pointer;
-    transition:
-      text-shadow 0.2s ease,
-      transform 0.2s ease;
+    transition: border-color 0.2s ease;
 
     &:hover {
-      text-shadow:
-        0 0 16px rgba(255, 255, 255, 1),
-        0 0 30px rgba(255, 255, 255, 0.6);
-      transform: scale(1.05);
+      border-color: rgba(255, 255, 255, 0.9);
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 0.85rem;
+      opacity: 0.8;
     }
   }
 }
