@@ -13,9 +13,12 @@ export default function startTimer(timeDisplay: HTMLElement | null): void {
     }, 10);
 }
 
-export function stopTimer(): void {
+export function stopTimer(): number | undefined {
     if (timer) {
         clearInterval(timer);
+        return timer;
         timer = undefined; // Nollställ referensen
+        console.log(timer);
+        
     }
 }

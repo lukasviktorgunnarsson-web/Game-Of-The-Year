@@ -1,6 +1,7 @@
 import "../styles/gamepage.scss";
 
 import fetchQuestions from "./fetchQuestions";
+import { stopTimer } from "./startTimer";
 let i = 0;
 
 export default async function renderGamePage(): Promise<void> {
@@ -107,7 +108,7 @@ export default async function renderGamePage(): Promise<void> {
     if (i < 10) {
       renderGamePage();
     } else if(i === 10) {
-      console.log("LÄGG TILL FUNKTIONEN VI SKA HA TILL ATT RENDERA GAMEOVERPAGE");
+      stopTimer();
     }
     console.log(i);
   });
