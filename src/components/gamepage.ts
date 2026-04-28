@@ -1,5 +1,4 @@
 import "../styles/gamepage.scss";
-
 import fetchQuestions from "./fetchQuestions";
 
 let i = 0;
@@ -28,7 +27,8 @@ export default async function renderGamePage(): Promise<void> {
   optionsContainer.classList.add("optionsContainer");
   dataContainer.appendChild(optionsContainer);
 
-  // Left side: drop zones — each tagged with the answerBox id they expect
+
+  // Dropzoner - var och en märkt med det answerBox-id de förväntar sig
   question.answerBoxes.forEach((answer) => {
     const optionBox = document.createElement("div");
     optionBox.classList.add("optionBox");
@@ -47,7 +47,7 @@ export default async function renderGamePage(): Promise<void> {
       const draggedEl = document.getElementById(draggedId);
       if (!draggedEl) return;
 
-      // If a different option is already here, send it back to the pool
+      // Om det redan finns ett element i dropzonen, flytta tillbaka det till poolen
       const existing = optionBox.querySelector<HTMLElement>(".answerBox");
       if (existing && existing !== draggedEl) {
         answersContainer.appendChild(existing);
@@ -64,7 +64,7 @@ export default async function renderGamePage(): Promise<void> {
   answersContainer.classList.add("answersContainer");
   dataContainer.appendChild(answersContainer);
 
-  // Right side pool also accepts drops so users can drag options back
+  // Gör att man kan släppa tillbaka svar till poolen
   answersContainer.addEventListener("dragover", (e) => e.preventDefault());
   answersContainer.addEventListener("drop", (e) => {
     e.preventDefault();
@@ -77,7 +77,8 @@ export default async function renderGamePage(): Promise<void> {
     }
   });
 
-  // Right side: draggable answer options tagged with the answerBox id they belong to
+
+  // Lägger till ID till varje answerBox för att veta vem den hör till
   question.answerOptions.forEach((answer, index) => {
     const answerBox = document.createElement("div");
     answerBox.classList.add("answerBox");
@@ -105,6 +106,9 @@ export default async function renderGamePage(): Promise<void> {
     renderGamePage();
   });
 
+
+
+  // Kollar om alla dropzoner har rätt svar och visar knappen om så är fallet
   function checkAllMatched(): void {
     const dropZones = optionsContainer.querySelectorAll<HTMLElement>(".optionBox");
     let correct = 0;
