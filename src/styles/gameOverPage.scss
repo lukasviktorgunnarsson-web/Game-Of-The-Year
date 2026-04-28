@@ -111,3 +111,30 @@ $gold: #ffd700;
     background-color: #089727;
   }
 }
+
+
+.editButton, .deleteButton {
+    background: rgba(255, 255, 255, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease; 
+    margin-left: 8px;
+}
+
+
+.editButton:hover, .deleteButton:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px); 
+}
+
+
+.deleteButton:hover {
+    background: rgba(255, 80, 80, 0.4); 
+    border-color: rgba(255, 80, 80, 0.6);
+}
+

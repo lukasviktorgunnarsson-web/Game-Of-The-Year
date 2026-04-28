@@ -13,7 +13,7 @@ export default function startTimer(timeDisplay: HTMLElement | null): void {
     }, 10);
 }
 
-export function stopTimer(): { name: string; time: string } | null {
+export function stopTimer(): { id: string; name: string; time: string } | null {
     if (timer) {
         clearInterval(timer);
         timer = undefined;
@@ -21,25 +21,25 @@ export function stopTimer(): { name: string; time: string } | null {
         const savedPlayer = localStorage.getItem("activePlayer");
 
         if (savedPlayer) {
-            const player = JSON.parse(savedPlayer);
+            const activePlayer = JSON.parse(savedPlayer);
 
+            // Use the SAME ID that was generated for the player
             const gameResult = {
-                id: player.playerId,
-                name: player.playerName,
+                id: activePlayer.id,
+                name: activePlayer.playerName,
                 time: seconds.toFixed(2)
             };
 
             saveToDataJson(gameResult);
-            return { name: gameResult.name, time: gameResult.time };
+            return { id: gameResult.id, name: gameResult.name, time: gameResult.time };
         }
     }
     return null;
 }
 
-// En hjälpfunktion för att prata med din server
 async function saveToDataJson(result: any) {
     try {
-        await fetch('http://localhost:3000/scoreboard', {
+        await fetch('http://localhost:3000/players', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(result)
