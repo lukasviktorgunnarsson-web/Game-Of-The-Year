@@ -35,22 +35,28 @@ export function renderGameOverPage(name: string, time: string): void {
 async function fetchAndRenderScores(list: HTMLOListElement, currentName: string, currentTime: string): Promise<void> {
     try {
         const res = await fetch("http://localhost:3000/scoreboard");
-        const entries: { name?: string; time?: string; id: string }[] = await res.json();
+        const allPlayers: { name?: string; time?: string; id: string }[] = await res.json();
 
-        const valid = entries.filter(e => e.name && e.time);
+        //  Filtrerar bort poster som saknar namn eller tid
+        const highscore = allPlayers.filter(e => e.name && e.time);
 
-        const currentAlreadySaved = valid.some(
+        // Kollar om den aktuella posten redan finns i listan (för att undvika dubbletter)
+        const currentAlreadySaved = highscore.some(
             e => e.name === currentName && e.time === currentTime
         );
         if (!currentAlreadySaved) {
-            valid.push({ name: currentName, time: currentTime, id: "__current__" });
+            highscore.push({ name: currentName, time: currentTime, id: "__current__" });
         }
 
-        valid.sort((a, b) => parseFloat(a.time!) - parseFloat(b.time!));
 
-        valid.forEach((entry, index) => {
+        // Sorterar posterna baserat på tid
+        highscore.sort((a, b) => parseFloat(a.time!) - parseFloat(b.time!));
+
+
+        // Renderar de sorterade posterna i listan
+        highscore.forEach((player, index) => {
             const li = document.createElement("li");
-            if (entry.name === currentName && entry.time === currentTime) {
+            if (player.name === currentName && player.time === currentTime) {
                 li.classList.add("currentPlayer");
             }
 
@@ -60,11 +66,11 @@ async function fetchAndRenderScores(list: HTMLOListElement, currentName: string,
 
             const entryName = document.createElement("span");
             entryName.classList.add("entryName");
-            entryName.textContent = entry.name!;
+            entryName.textContent = player.name!;
 
             const entryTime = document.createElement("span");
             entryTime.classList.add("entryTime");
-            entryTime.textContent = `${entry.time}s`;
+            entryTime.textContent = `${player.time}s`;
 
             li.append(rank, entryName, entryTime);
             list.appendChild(li);
