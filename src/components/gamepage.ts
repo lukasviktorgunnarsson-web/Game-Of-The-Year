@@ -25,48 +25,45 @@ export default async function renderGamePage(): Promise<void> {
   renderdQuestion.textContent = question.title;
   mainContainer.appendChild(renderdQuestion);
 
+  const dataContainer = document.createElement("div");
+  dataContainer.classList.add("dataContainer");
+  mainContainer.appendChild(dataContainer);
+  dataContainer.classList.add("dataContainer");
+
   const optionsContainer = document.createElement("div");
   optionsContainer.classList.add("optionsContainer");
-  mainContainer.appendChild(optionsContainer);
+  dataContainer.appendChild(optionsContainer);
+  optionsContainer.classList.add("optionsContainer");
 
   question.answerBoxes.forEach((answer) => {
     const optionBox = document.createElement("div");
     optionBox.classList.add("optionBox");
     optionBox.textContent = answer.title;
+
     optionsContainer.appendChild(optionBox);
-    const dropZone = document.createElement("div");
-    dropZone.classList.add("dropZone");
-    optionsContainer.appendChild(dropZone);
   });
 
   const answersContainer = document.createElement("div");
   answersContainer.classList.add("answersContainer");
-  mainContainer.appendChild(answersContainer);
+  dataContainer.appendChild(answersContainer);
+  answersContainer.classList.add("answersContainer");
 
   question.answerOptions.forEach((answer) => {
     const answerBox = document.createElement("div");
     answerBox.classList.add("answerBox");
     answerBox.textContent = answer.title;
-    answerBox.draggable = true;
-    answerBox.id = `q${question.id}-card-${answer.index}`; 
 
     answersContainer.appendChild(answerBox);
-    moveQuestions();
   });
 
   const btn = document.createElement("button");
   btn.textContent = "Nästa fråga";
   mainContainer.appendChild(btn);
+  btn.classList.add("nextBtn");
 
   btn.addEventListener("click", () => {
-
     i++;
     mainContainer.remove();
     renderGamePage();
-    moveQuestions();
   });
 }
-
-
-
-
