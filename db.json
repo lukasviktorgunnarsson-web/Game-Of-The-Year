@@ -1,42 +1,6 @@
 {
   "players": [
     {
-      "playerName": "Lukas",
-      "id": "9aeSBuAX5Yc"
-    },
-    {
-      "playerName": "Leo",
-      "id": "wd5HmTEZtTk"
-    },
-    {
-      "playerName": "Diana",
-      "id": "MwzNxCeYtl8"
-    },
-    {
-      "playerName": "jhboj",
-      "id": "SVdycex37Pg"
-    },
-    {
-      "playerName": "dsadasd",
-      "id": "yZ2eGCO5Mfg"
-    },
-    {
-      "playerName": "LEo high score",
-      "id": "glwifaq37Us"
-    },
-    {
-      "playerName": "Leo HIGHSCORE",
-      "id": "OJnzyqNihYY"
-    },
-    {
-      "playerName": "asdasd",
-      "id": "sPiMsj1D6i8"
-    },
-    {
-      "playerName": "display:block",
-      "id": "ejSiMX_Pkzk"
-    },
-    {
       "playerName": "LEo nytt highscore",
       "id": "QE13VBQ4i18"
     },
@@ -47,6 +11,14 @@
     {
       "playerName": "Sista bästa score (LEO)",
       "id": "HhU6MVcI2JU"
+    },
+    {
+      "playerName": "Lukas",
+      "id": "12P_jfxcO5Y"
+    },
+    {
+      "playerName": "Lukas bästa highscore",
+      "id": "VvalOM0YiqI"
     }
   ],
   "scoreboard": [
@@ -54,26 +26,6 @@
       "playerId": "",
       "score": "",
       "id": "wv5qw9xTcWE"
-    },
-    {
-      "name": "jhboj",
-      "time": "60.19",
-      "id": "iK1G7__Zw2I"
-    },
-    {
-      "name": "Leo HIGHSCORE",
-      "time": "61.36",
-      "id": "FKIIEOQAZW0"
-    },
-    {
-      "name": "asdasd",
-      "time": "110.14",
-      "id": "M2HrzLih7EQ"
-    },
-    {
-      "name": "display:block",
-      "time": "45.88",
-      "id": "EeTsf1ZLFko"
     },
     {
       "name": "LEo nytt highscore",
@@ -89,6 +41,16 @@
       "name": "Sista bästa score (LEO)",
       "time": "39.84",
       "id": "QdkPFenaiG0"
+    },
+    {
+      "name": "Lukas",
+      "time": "28.96",
+      "id": "z1NrIemdVSg"
+    },
+    {
+      "name": "Lukas bästa highscore",
+      "time": "23.96",
+      "id": "4UKaaMdR1j8"
     }
   ],
   "questions": [
@@ -653,5 +615,6 @@
       ]
     }
   ],
-  "answerOption": []
+  "answerOption": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
