@@ -13,12 +13,19 @@ export default function startTimer(timeDisplay: HTMLElement | null): void {
     }, 10);
 }
 
-export function stopTimer(): number | undefined {
+export function stopTimer(): number {
     if (timer) {
         clearInterval(timer);
-        return timer;
-        timer = undefined; // Nollställ referensen
-        console.log(timer);
-        
+        timer = undefined;
+
+        // Spara tiden i webbläsarens minne
+        localStorage.setItem("savedTime", seconds.toFixed(2));
+        console.log("Tid sparad:", seconds.toFixed(2));
     }
+     return seconds; // Skickar tillbaka den slutgiltiga tiden
+}
+
+const lastSavedTime = localStorage.getItem("savedTime");
+if (lastSavedTime) {
+    console.log("Din förra tid var: " + lastSavedTime);
 }
