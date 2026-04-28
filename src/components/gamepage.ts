@@ -104,10 +104,10 @@ export default async function renderGamePage(): Promise<void> {
     i++;
     mainContainer.remove();
 
-    if (i <= 10) {
+    if (i < 10) {
       renderGamePage();
-    } else if(i >= 10) {
-      console.log("hejsan det funkar !!!!");
+    } else if(i === 10) {
+      console.log("LÄGG TILL FUNKTIONEN VI SKA HA TILL ATT RENDERA GAMEOVERPAGE");
     }
     console.log(i);
   });
