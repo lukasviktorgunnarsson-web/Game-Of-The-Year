@@ -3,13 +3,13 @@ $primary-color: #007bff;
 $secondary-color: #d60b0b;
 $text-color: #ffffff;
 
-body {
+.startPageBody {
   font-family: sans-serif;
   background-color: $bg-color;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 h1{

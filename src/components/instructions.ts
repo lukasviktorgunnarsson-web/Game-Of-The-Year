@@ -1,5 +1,5 @@
 export default function renderInstructions(): void {
-const body = document.querySelector("body") as HTMLBodyElement;
+    const body = document.querySelector("body") as HTMLBodyElement;
 
 const textContainer = document.createElement("div");
 textContainer.classList.add("instructions-container"); 
