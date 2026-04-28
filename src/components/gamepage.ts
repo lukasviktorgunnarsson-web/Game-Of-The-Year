@@ -1,10 +1,11 @@
 import "../styles/gamepage.scss";
 
 import fetchQuestions from "./fetchQuestions";
-
 let i = 0;
 
 export default async function renderGamePage(): Promise<void> {
+
+
   const body = document.querySelector("body");
   body?.classList.remove("startPageBody");
   body?.classList.add("gamePageBody");
@@ -102,11 +103,18 @@ export default async function renderGamePage(): Promise<void> {
   btn.addEventListener("click", () => {
     i++;
     mainContainer.remove();
-    renderGamePage();
+
+    if (i <= 10) {
+      renderGamePage();
+    } else if(i >= 10) {
+      console.log("hejsan det funkar !!!!");
+    }
+    console.log(i);
   });
 
   function checkAllMatched(): void {
-    const dropZones = optionsContainer.querySelectorAll<HTMLElement>(".optionBox");
+    const dropZones =
+      optionsContainer.querySelectorAll<HTMLElement>(".optionBox");
     let correct = 0;
 
     dropZones.forEach((zone) => {

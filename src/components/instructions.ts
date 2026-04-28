@@ -1,3 +1,6 @@
+import renderGamePage from "./gamepage.ts";
+import startTimer from "./startTimer.ts";
+
 export default function renderInstructions(): void {
     const body = document.querySelector("body") as HTMLBodyElement;
 
@@ -36,8 +39,15 @@ nextPageBtn.innerText = "Start";
 nextPageBtn.classList.add("start-button");
 textContainer.appendChild(nextPageBtn);
 
-nextPageBtn.addEventListener("click", (): void => {
-  document.body.innerHTML = "";
- });
+    nextPageBtn.addEventListener("click", (): void => {
+        document.body.innerHTML = "";
+        const newDisplay = document.createElement("div");
+        newDisplay.id = "display";
+        newDisplay.classList.add("display");
+        document.body.appendChild(newDisplay);
+        startTimer(newDisplay);
+        renderGamePage();
+    })
 }
 
+///////////
