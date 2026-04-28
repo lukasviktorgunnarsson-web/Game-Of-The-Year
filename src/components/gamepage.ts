@@ -1,6 +1,6 @@
 import "../styles/gamepage.scss";
-
 import fetchQuestions from "./fetchQuestions";
+import moveQuestions from "./moveQuestions";
 // renderar ut alla element
 
 let i = 0;
@@ -18,6 +18,7 @@ export default async function renderGamePage(): Promise<void> {
 
   const questions = await fetchQuestions();
   const question = questions[i];
+
 
   //hämtar alla frågor
   const renderdQuestion = document.createElement("h3");
