@@ -11,6 +11,10 @@
     {
       "playerName": "Diana",
       "id": "MwzNxCeYtl8"
+    },
+    {
+      "playerName": "adsad",
+      "id": "fIEEvib1h9U"
     }
   ],
   "scoreboard": [
@@ -582,5 +586,6 @@
       ]
     }
   ],
-  "answerOption": []
+  "answerOption": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
