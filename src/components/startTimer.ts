@@ -13,19 +13,38 @@ export default function startTimer(timeDisplay: HTMLElement | null): void {
     }, 10);
 }
 
-export function stopTimer(): number {
+export function stopTimer(): { name: string; time: string } | null {
     if (timer) {
         clearInterval(timer);
         timer = undefined;
 
-        // Spara tiden i webbläsarens minne
-        localStorage.setItem("savedTime", seconds.toFixed(2));
-        console.log("Tid sparad:", seconds.toFixed(2));
+        const savedPlayer = localStorage.getItem("activePlayer");
+
+        if (savedPlayer) {
+            const player = JSON.parse(savedPlayer);
+
+            const gameResult = {
+                id: player.playerId,
+                name: player.playerName,
+                time: seconds.toFixed(2)
+            };
+
+            saveToDataJson(gameResult);
+            return { name: gameResult.name, time: gameResult.time };
+        }
     }
-     return seconds; // Skickar tillbaka den slutgiltiga tiden
+    return null;
 }
 
-const lastSavedTime = localStorage.getItem("savedTime");
-if (lastSavedTime) {
-    console.log("Din förra tid var: " + lastSavedTime);
+// En hjälpfunktion för att prata med din server
+async function saveToDataJson(result: any) {
+    try {
+        await fetch('http://localhost:3000/scoreboard', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(result)
+        });
+    } catch (error) {
+        console.error("Kunde inte spara till data.json", error);
+    }
 }

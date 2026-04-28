@@ -1,0 +1,113 @@
+$bg-color: #3172d4;
+$secondary-color: #d60b0b;
+$gold: #ffd700;
+
+.gameOverContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  font-family: sans-serif;
+  color: white;
+
+  h2 {
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-shadow: 8px 4px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+  }
+
+  .yourResult {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    margin-bottom: 30px;
+
+    span {
+      font-weight: bold;
+      color: $gold;
+    }
+  }
+}
+
+.scoreboard {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 20px 30px;
+  min-width: 340px;
+
+  h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.9;
+  }
+
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: background 0.2s ease;
+
+    &.currentPlayer {
+      background: rgba(255, 215, 0, 0.15);
+      border-color: $gold;
+
+      .rank,
+      .entryName,
+      .entryTime {
+        color: $gold;
+      }
+    }
+
+    .rank {
+      font-weight: bold;
+      font-size: 1rem;
+      min-width: 28px;
+      opacity: 0.8;
+    }
+
+    .entryName {
+      flex: 1;
+      font-size: 1rem;
+    }
+
+    .entryTime {
+      font-size: 1rem;
+      font-variant-numeric: tabular-nums;
+      opacity: 0.9;
+    }
+  }
+}
+
+.playAgainBtn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: $secondary-color;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  min-width: 160px;
+
+  &:hover {
+    background-color: #089727;
+  }
+}
