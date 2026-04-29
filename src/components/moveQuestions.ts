@@ -48,38 +48,38 @@
 
 
 
-export default function moveQuestions() {
-    const cards = document.querySelectorAll<HTMLElement>('.answerBox');
-    const dropZones = document.querySelectorAll<HTMLElement>('.dropZone');
+// export default function moveQuestions() {
+//     const cards = document.querySelectorAll<HTMLElement>('.answerBox');
+//     const dropZones = document.querySelectorAll<HTMLElement>('.dropZone');
 
-    cards.forEach(card => {
-        card.addEventListener('dragstart', (e) => {
-            if (e.dataTransfer) {
-                console.log("Startar drag för ID:", card.id);
-                e.dataTransfer.setData('text/plain', card.id);
-                e.dataTransfer.dropEffect = 'move';
-            }
-        });
-    });
+//     cards.forEach(card => {
+//         card.addEventListener('dragstart', (e) => {
+//             if (e.dataTransfer) {
+//                 console.log("Startar drag för ID:", card.id);
+//                 e.dataTransfer.setData('text/plain', card.id);
+//                 e.dataTransfer.dropEffect = 'move';
+//             }
+//         });
+//     });
 
-    dropZones.forEach(dropZone => {
-        dropZone.addEventListener('dragover', (e) => {
-            e.preventDefault(); // Detta tillåter att man släpper
-            if (e.dataTransfer) {
-                e.dataTransfer.dropEffect = 'move';
-            }
-        });
+//     dropZones.forEach(dropZone => {
+//         dropZone.addEventListener('dragover', (e) => {
+//             e.preventDefault(); // Detta tillåter att man släpper
+//             if (e.dataTransfer) {
+//                 e.dataTransfer.dropEffect = 'move';
+//             }
+//         });
 
-        dropZone.addEventListener('drop', (e) => {
-            e.preventDefault();
-            const cardId = e.dataTransfer?.getData('text/plain');
+//         dropZone.addEventListener('drop', (e) => {
+//             e.preventDefault();
+//             const cardId = e.dataTransfer?.getData('text/plain');
             
-            if (cardId) {
-                const draggedElement = document.getElementById(cardId);
-                if (draggedElement) {
-                    dropZone.appendChild(draggedElement);
-                }
-            }
-        });
-    });
-}
+//             if (cardId) {
+//                 const draggedElement = document.getElementById(cardId);
+//                 if (draggedElement) {
+//                     dropZone.appendChild(draggedElement);
+//                 }
+//             }
+//         });
+//     });
+// }

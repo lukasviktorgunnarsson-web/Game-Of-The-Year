@@ -2,11 +2,14 @@ import "../styles/gamepage.scss";
 
 import fetchQuestions from "./fetchQuestions";
 import { stopTimer } from "./startTimer";
+import { renderGameOverPage } from "./gameOverPage";
+
 let i = 0;
 
+
+// Renderar spelplanen, och hanterar logiken för att dra och släppa answerBox i optionBox, 
+// samt att gå vidare till nästa fråga när alla är rätt placerade.
 export default async function renderGamePage(): Promise<void> {
-
-
   const body = document.querySelector("body");
   body?.classList.remove("startPageBody");
   body?.classList.add("gamePageBody");
@@ -95,6 +98,7 @@ export default async function renderGamePage(): Promise<void> {
     answersContainer.appendChild(answerBox);
   });
 
+  // Skapar knappen för att gå vidare till nästa fråga, och gömmer den tills alla answerBox är placerade i rätt optionBox
   const btn = document.createElement("button");
   btn.textContent = "Nästa fråga";
   btn.classList.add("nextBtn");
@@ -107,12 +111,14 @@ export default async function renderGamePage(): Promise<void> {
 
     if (i < 10) {
       renderGamePage();
-    } else if(i === 10) {
-      stopTimer();
+    } else if (i === 10) {
+      const result = stopTimer();
+      if (result) renderGameOverPage(result.name, result.time);
     }
     console.log(i);
   });
 
+  // Kontrollerar om alla answerBox är placerade i rätt optionBox, och visar knappen om så är fallet
   function checkAllMatched(): void {
     const dropZones =
       optionsContainer.querySelectorAll<HTMLElement>(".optionBox");

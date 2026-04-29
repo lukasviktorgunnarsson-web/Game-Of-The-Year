@@ -2,13 +2,16 @@ export interface Iplayers {
     playerName: string,
 }
 export interface IPlayer {
-playerId: string;
+playerId?: string;
 playerName: string;
 }
 
 export interface IScoreboard {
 playerId: string;
 score: string;
+// name: string;
+// time: number;
+// id: string;
 } 
 
 export interface IQuestion {
