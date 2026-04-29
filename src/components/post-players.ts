@@ -1,4 +1,3 @@
-// import type { IPlayer } from "./interface.ts";
 
 
 export default async function createPlayer() {
@@ -13,7 +12,6 @@ export default async function createPlayer() {
       return;
     }
 
-    // Generate one ID to be used for both player and scoreboard entries
     const playerId = crypto.randomUUID();
     
     const newPlayer: any = {
@@ -22,15 +20,5 @@ export default async function createPlayer() {
     };
     localStorage.setItem("activePlayer", JSON.stringify(newPlayer));
 
-//     fetch("http://localhost:3000/players", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify(newPlayer),
-//     })
-//       .then((res) => res.json())
-//       .then((data) => console.log("Sparad:", data))
-//       .catch((err) => console.error("Error:", err));
   });
 }

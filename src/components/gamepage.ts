@@ -114,6 +114,7 @@ export default async function renderGamePage(): Promise<void> {
     } else if (i === 10) {
       const result = stopTimer();
       if (result) renderGameOverPage(result.name, result.time);
+      i = 0;
     }
     console.log(i);
   });

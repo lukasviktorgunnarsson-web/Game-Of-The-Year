@@ -13,6 +13,8 @@ export default function startTimer(timeDisplay: HTMLElement | null): void {
     }, 10);
 }
 
+
+
 export function stopTimer(): { id: string; name: string; time: string } | null {
     if (timer) {
         clearInterval(timer);

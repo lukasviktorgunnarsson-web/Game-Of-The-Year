@@ -1,11 +1,12 @@
 import "../styles/gameOverPage.scss";
+import renderStartPage from "./renderStartPage";
+import  {clearstartPage}  from "./instructions.ts";
 
 export function renderGameOverPage(name: string, time: string): void {
 
 
     const container = document.createElement("div");
     container.classList.add("gameOverContainer");
-
 
 
     const heading = document.createElement("h2");
@@ -41,7 +42,8 @@ export function renderGameOverPage(name: string, time: string): void {
 
 
     startOverButton.addEventListener("click", () => {
-        location.reload();
+        clearstartPage();
+       renderStartPage();
     });
 
     fetchAndRenderScores(list, name, time);

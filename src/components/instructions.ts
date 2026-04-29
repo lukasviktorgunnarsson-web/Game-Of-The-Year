@@ -50,4 +50,8 @@ textContainer.appendChild(nextPageBtn);
     })
 }
 
+export function clearstartPage(): void {
+    document.body.innerHTML = "";
+}
+
 ///////////
