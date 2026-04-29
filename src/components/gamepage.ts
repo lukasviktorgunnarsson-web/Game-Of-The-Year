@@ -33,7 +33,7 @@ export default async function renderGamePage(): Promise<void> {
   optionsContainer.classList.add("optionsContainer");
   dataContainer.appendChild(optionsContainer);
 
-  // Gör så att varje optionBox har en dataset-id som matchar den answerBox den hör ihop med
+  
   question.answerBoxes.forEach((answer) => {
     const optionBox = document.createElement("div");
     optionBox.classList.add("optionBox");
@@ -52,7 +52,7 @@ export default async function renderGamePage(): Promise<void> {
       const draggedEl = document.getElementById(draggedId);
       if (!draggedEl) return;
 
-      // Gör så att det bara kan finnas en answerBox i varje optionBox, och att den gamla flyttas tillbaka till poolen
+      
       const existing = optionBox.querySelector<HTMLElement>(".answerBox");
       if (existing && existing !== draggedEl) {
         answersContainer.appendChild(existing);
@@ -69,7 +69,7 @@ export default async function renderGamePage(): Promise<void> {
   answersContainer.classList.add("answersContainer");
   dataContainer.appendChild(answersContainer);
 
-  // Gör så att man kan dra tillbaka answers till poolen.
+  
   answersContainer.addEventListener("dragover", (e) => e.preventDefault());
   answersContainer.addEventListener("drop", (e) => {
     e.preventDefault();
@@ -82,17 +82,17 @@ export default async function renderGamePage(): Promise<void> {
     }
   });
 
-  // Ger varje draggable answer ett id som matchar den optionBox den hör ihop med
-  question.answerOptions.forEach((answer, index) => {
-    const answerBox = document.createElement("div");
-    answerBox.classList.add("answerBox");
-    answerBox.textContent = answer.title;
-    answerBox.draggable = true;
-    answerBox.id = `option-${i}-${index}`;
-    answerBox.dataset.answerbox = answer.answerbox;
+  
+   question.answerOptions.sort(() => Math.random() - 0.5).forEach((answer, index) => {
+  const answerBox = document.createElement("div");
+  answerBox.classList.add("answerBox");
+  answerBox.textContent = answer.title;
+  answerBox.draggable = true;
+  answerBox.id = `option-${i}-${index}`;
+  answerBox.dataset.answerbox = answer.answerbox;
 
-    answerBox.addEventListener("dragstart", (e) => {
-      e.dataTransfer?.setData("text/plain", answerBox.id);
+  answerBox.addEventListener("dragstart", (e) => {
+    e.dataTransfer?.setData("text/plain", answerBox.id);
     });
 
     answersContainer.appendChild(answerBox);
