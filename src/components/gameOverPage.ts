@@ -73,6 +73,8 @@ async function fetchAndRenderScores(list: HTMLOListElement, currentName: string,
             const li = document.createElement("li");
             if (player.name === currentName && player.time === currentTime) {
                 li.classList.add("currentPlayer");
+            } else if (index > 9) {
+                return
             }
 
             const rank = document.createElement("span");
