@@ -1,10 +1,14 @@
 import "../styles/gamepage.scss";
 
 import fetchQuestions from "./fetchQuestions";
-// renderar ut alla element
+import { stopTimer } from "./startTimer";
+import { renderGameOverPage } from "./gameOverPage";
 
 let i = 0;
 
+
+// Renderar spelplanen, och hanterar logiken för att dra och släppa answerBox i optionBox, 
+// samt att gå vidare till nästa fråga när alla är rätt placerade.
 export default async function renderGamePage(): Promise<void> {
   const body = document.querySelector("body");
   body?.classList.remove("startPageBody");
@@ -14,53 +18,120 @@ export default async function renderGamePage(): Promise<void> {
   mainContainer.classList.add("mainContainer");
   body?.appendChild(mainContainer);
 
-  //renderar ut frågorna
-
   const questions = await fetchQuestions();
   const question = questions[i];
 
+  const renderdQuestion = document.createElement("h3");
+  renderdQuestion.textContent = question.title;
+  mainContainer.appendChild(renderdQuestion);
 
-//hämtar alla frågor
-const renderdQuestion = document.createElement("h3");
-renderdQuestion.textContent = question.title;
-mainContainer.appendChild(renderdQuestion);
+  const dataContainer = document.createElement("div");
+  dataContainer.classList.add("dataContainer");
+  mainContainer.appendChild(dataContainer);
 
-const optionsContainer = document.createElement("div");
-optionsContainer.classList.add("optionsContainer");
-mainContainer.appendChild(optionsContainer);
+  const optionsContainer = document.createElement("div");
+  optionsContainer.classList.add("optionsContainer");
+  dataContainer.appendChild(optionsContainer);
 
-question.answerBoxes.forEach((answer) => {
-const optionBox = document.createElement("div");
-  optionBox.classList.add("optionBox");
-optionBox.textContent = answer.title;
+  
+  question.answerBoxes.forEach((answer) => {
+    const optionBox = document.createElement("div");
+    optionBox.classList.add("optionBox");
+    optionBox.dataset.id = answer.id;
 
-  optionsContainer.appendChild(optionBox);
-});
+    const label = document.createElement("span");
+    label.textContent = answer.title;
+    optionBox.appendChild(label);
 
-const answersContainer = document.createElement("div");
-answersContainer.classList.add("answersContainer");
-mainContainer.appendChild(answersContainer);
+    optionBox.addEventListener("dragover", (e) => e.preventDefault());
 
-question.answerOptions.forEach((answer)  => {
+    optionBox.addEventListener("drop", (e) => {
+      e.preventDefault();
+      const draggedId = e.dataTransfer?.getData("text/plain");
+      if (!draggedId) return;
+      const draggedEl = document.getElementById(draggedId);
+      if (!draggedEl) return;
+
+      
+      const existing = optionBox.querySelector<HTMLElement>(".answerBox");
+      if (existing && existing !== draggedEl) {
+        answersContainer.appendChild(existing);
+      }
+
+      optionBox.appendChild(draggedEl);
+      checkAllMatched();
+    });
+
+    optionsContainer.appendChild(optionBox);
+  });
+
+  const answersContainer = document.createElement("div");
+  answersContainer.classList.add("answersContainer");
+  dataContainer.appendChild(answersContainer);
+
+  
+  answersContainer.addEventListener("dragover", (e) => e.preventDefault());
+  answersContainer.addEventListener("drop", (e) => {
+    e.preventDefault();
+    const draggedId = e.dataTransfer?.getData("text/plain");
+    if (!draggedId) return;
+    const draggedEl = document.getElementById(draggedId);
+    if (draggedEl) {
+      answersContainer.appendChild(draggedEl);
+      checkAllMatched();
+    }
+  });
+
+  
+   question.answerOptions.sort(() => Math.random() - 0.5).forEach((answer, index) => {
   const answerBox = document.createElement("div");
-answerBox.classList.add("answerBox");
+  answerBox.classList.add("answerBox");
   answerBox.textContent = answer.title;
+  answerBox.draggable = true;
+  answerBox.id = `option-${i}-${index}`;
+  answerBox.dataset.answerbox = answer.answerbox;
 
-answersContainer.appendChild(answerBox);
-});
+  answerBox.addEventListener("dragstart", (e) => {
+    e.dataTransfer?.setData("text/plain", answerBox.id);
+    });
 
-const btn = document.createElement("button");
-btn.textContent = "Nästa fråga";
-mainContainer.appendChild(btn);
+    answersContainer.appendChild(answerBox);
+  });
 
-btn.addEventListener("click", () => {
+  // Skapar knappen för att gå vidare till nästa fråga, och gömmer den tills alla answerBox är placerade i rätt optionBox
+  const btn = document.createElement("button");
+  btn.textContent = "Nästa fråga";
+  btn.classList.add("nextBtn");
+  btn.style.display = "none";
+  mainContainer.appendChild(btn);
 
-i++;
-mainContainer.remove();
-  renderGamePage();
-});
+  btn.addEventListener("click", () => {
+    i++;
+    mainContainer.remove();
+
+    if (i < 10) {
+      renderGamePage();
+    } else if (i === 10) {
+      const result = stopTimer();
+      if (result) renderGameOverPage(result.name, result.time);
+      i = 0;
+    }
+    console.log(i);
+  });
+
+  // Kontrollerar om alla answerBox är placerade i rätt optionBox, och visar knappen om så är fallet
+  function checkAllMatched(): void {
+    const dropZones =
+      optionsContainer.querySelectorAll<HTMLElement>(".optionBox");
+    let correct = 0;
+
+    dropZones.forEach((zone) => {
+      const placed = zone.querySelector<HTMLElement>(".answerBox");
+      if (placed && placed.dataset.answerbox === zone.dataset.id) {
+        correct++;
+      }
+    });
+
+    btn.style.display = correct === dropZones.length ? "block" : "none";
+  }
 }
-
-
-
-

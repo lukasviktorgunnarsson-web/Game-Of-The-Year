@@ -1,5 +1,3 @@
-import  renderInstructions  from "./instructions.ts";
-
 export default function clearstartPage(): void {
     const startInput = document.querySelector<HTMLInputElement>("#startInput");
     if (startInput && startInput.value.trim() !== "") {
@@ -9,10 +7,3 @@ export default function clearstartPage(): void {
         alert("Du måste skriva in ett namn.");
     }
 }
-const startButton = document.querySelector("#startButton")
-startButton?.addEventListener("click", () => {
-    clearstartPage()
-    renderInstructions()
-})
-
-
